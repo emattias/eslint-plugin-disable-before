@@ -1,33 +1,31 @@
 {
-  "name": "eslint-plugin-disable",
-  "version": "2.0.0",
-  "description": "Disable ESLint plugins using file patterns and inline comments",
+  "name": "eslint-plugin-disable-before",
+  "version": "0.0.1",
+  "description": "Disable ESLint rule for changes before",
   "keywords": [
     "eslint",
     "eslintplugin",
     "disable",
     "plugin"
   ],
-  "author": "Michael Radionov (https://github.com/mradionov)",
+  "author": "Mattias Hällkvist (https://github.com/emattias)",
+  "contributors": [
+    "Michael Radionov (https://github.com/mradionov)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mradionov/eslint-plugin-disable.git"
+    "url": "git+https://github.com/emattias/eslint-plugin-disable-before.git"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "tape 'test/**/*.test.js'"
-  },
   "peerDependencies": {
-    "eslint": ">=0.16.0"
+    "eslint": ">=6.8.0"
   },
   "dependencies": {
-    "eslint": ">=0.16.0",
+    "eslint": ">=6.8.0",
     "resolve": "^1.1.6"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "proxyquire": "^2.1.3",
-    "tape": "^4.2.2"
+    "prettier": "^1.19.1"
   }
 }
